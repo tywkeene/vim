@@ -30,7 +30,7 @@ let g:go_fmt_fail_silently = 1
 
 set rtp+=$GOROOT/misc/vim
 
-let g:python3_host_prog = '/usr/bin/python3'
+let g:python3_host_prog = '/usr/local/Cellar/python@3.9/3.9.0/bin/python3.9'
 let g:deoplete#enable_at_startup = 1
 
 " powerline options

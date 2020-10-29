@@ -1,5 +1,8 @@
 source /Users/tywkeene/.vim/autoload/plug.vim
 call plug#begin('/Users/tywkeene/etc/vim/plugged')
+Plug 'kyazdani42/nvim-web-devicons'
+Plug 'romgrk/barbar.nvim'
+
 Plug 'ekalinin/Dockerfile.vim', {'for': ['Dockerfile']}
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -12,5 +15,4 @@ Plug 'junegunn/fzf'
 Plug 'dense-analysis/ale'
 Plug 'airblade/vim-gitgutter'
 Plug 'psliwka/vim-smoothie'
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 call plug#end()
