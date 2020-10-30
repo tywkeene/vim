@@ -31,7 +31,8 @@ set viminfo+=n/Users/tywkeene/.viminfo
 set rtp+=$GOROOT/misc/vim
 
 let g:python3_host_prog = '/usr/local/Cellar/python@3.9/3.9.0_1/bin/python3.9'
-let g:deoplete#enable_at_startup = 1
+
+let g:ycm_key_list_select_completion = ['<TAB>', '<Down>', '<Enter>']
 
 " powerline options
 let g:airline_powerline_fonts = 1
