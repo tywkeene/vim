@@ -19,7 +19,6 @@ set encoding=utf-8
 set number
 set laststatus=2
 set guioptions=agitc
-set viminfo+=n/Users/tywkeene/etc/vim/viminfo
 set backspace=2
 set modeline
 set guioptions=agitc
@@ -28,9 +27,10 @@ set nolazyredraw
 
 let g:go_fmt_fail_silently = 1
 
+set viminfo+=n/Users/tywkeene/.viminfo
 set rtp+=$GOROOT/misc/vim
 
-let g:python3_host_prog = '/usr/local/Cellar/python@3.9/3.9.0/bin/python3.9'
+let g:python3_host_prog = '/usr/local/Cellar/python@3.9/3.9.0_1/bin/python3.9'
 let g:deoplete#enable_at_startup = 1
 
 " powerline options

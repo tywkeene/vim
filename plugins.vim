@@ -1,5 +1,5 @@
 source /Users/tywkeene/.vim/autoload/plug.vim
-call plug#begin('/Users/tywkeene/etc/vim/plugged')
+call plug#begin('/Users/tywkeene/.vim/plugged')
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'romgrk/barbar.nvim'
 
@@ -15,4 +15,7 @@ Plug 'junegunn/fzf'
 Plug 'dense-analysis/ale'
 Plug 'airblade/vim-gitgutter'
 Plug 'psliwka/vim-smoothie'
+
+Plug 'ycm-core/YouCompleteMe'
+
 call plug#end()
