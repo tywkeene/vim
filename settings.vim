@@ -25,19 +25,21 @@ set guioptions=agitc
 let base16colorspace=256
 set nolazyredraw
 
-let g:go_fmt_fail_silently = 1
-
 set viminfo+=n/Users/tywkeene/.viminfo
 set rtp+=$GOROOT/misc/vim
 
+" to get you complete me to work
 let g:python3_host_prog = '/usr/local/Cellar/python@3.9/3.9.0_1/bin/python3.9'
-
 let g:ycm_key_list_select_completion = ['<TAB>', '<Down>', '<Enter>']
+
+" vim go
+let g:go_fmt_fail_silently = 1
 
 " powerline options
 let g:airline_powerline_fonts = 1
 let g:Powerline_symbols = 'fancy'
 
+" ale linter
 let g:airline#extensions#ale#enabled = 1
 let g:ale_sign_column_always = 1
 let g:ale_open_list = 0

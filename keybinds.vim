@@ -1,8 +1,8 @@
 let mapleader = ","
 
 nmap <F1> :w<CR><ESC><ESC>
-nmap <F2> :FZF<CR>
-nmap <F3> :tabe<SPACE>
+nmap <F2> :e<SPACE>
+nmap <F3> :FZF<CR>
 nmap <F4> :split<SPACE>
 
 nmap <F11> :bd <CR>
